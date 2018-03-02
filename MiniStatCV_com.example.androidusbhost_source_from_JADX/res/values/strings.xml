@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiniStatCV</string>
+    <string name="action_settings">Settings</string>
+    <string name="date_title">DATE: \t \t</string>
+    <string name="expid_title">\t \t Experiment ID: \t \t</string>
+    <string name="exptitle_title">TITLE:</string>
+    <string name="check">Connect</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="stop">Stop</string>
+    <string name="expTitleHint">Put experiment title here</string>
+    <string name="csv">Data export</string>
+    <string name="settings">Settings</string>
+    <string name="expconfirm">Export</string>
+    <string name="expcancel">Cancel</string>
+    <string name="voltage">V</string>
+    <string name="vrate">mV/s</string>
+    <string name="startV">initial\npotential</string>
+    <string name="scanEnd">switching\npotential</string>
+    <string name="endV">final\npotential</string>
+    <string name="scanRateV">scan\nrate</string>
+    <string name="scan_rates">Scan Rate</string>
+    <string name="dialogCVtitle">Cyclic voltammetry parameters</string>
+    <string name="dialogExptitle">Export data</string>
+    <string name="domainLabel">voltage (mV)</string>
+    <string name="rangeLabel">current (uA)</string>
+    <string name="noDetect">No USB device detected!</string>
+    <string name="noConnect">Not connected to anything!</string>
+    <string name="release_usb">USB potentiostat has been released.</string>
+    <string name="usbConnect">Connection established between this device and the potentiostat!</string>
+    <string name="denyPerm">Permission has been denied to connect the potentiostat.</string>
+    <string name="noexport">There is nothing to export!</string>
+    <string name="exptitleerr">Title for your file name is needed.</string>
+    <string name="runcomplete">Experiment is completed!</string>
+    <string name="expcomplete">Data has been exported!</string>
+    <string name="date">false</string>
+</resources>

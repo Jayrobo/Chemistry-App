@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/startV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/startV" />
+        <NumberPicker android:id="@+id/startscan_pick" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textStyle="bold" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/volt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voltage" />
+        <TextView android:textStyle="bold" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/scanEnd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="@string/scanEnd" />
+        <NumberPicker android:id="@+id/scanupto_pick" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textStyle="bold" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/volt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voltage" />
+        <TextView android:textStyle="bold" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/endV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="@string/endV" />
+        <NumberPicker android:id="@+id/endV_pick" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textStyle="bold" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/volt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voltage" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/scanRateV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scanRateV" />
+        <NumberPicker android:id="@+id/scanrate_pick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textStyle="bold" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/vrateunit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vrate" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/startEx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start" android:layout_weight="1.0" />
+        <Button android:id="@+id/cancelEx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

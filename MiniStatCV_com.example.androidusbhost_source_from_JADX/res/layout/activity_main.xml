@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:id="@+id/date_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/date_title" />
+        <TextView android:id="@+id/dateText" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/date" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/check" android:layout_weight="1.0" />
+        <Button android:id="@+id/csvButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/csv" android:layout_weight="1.0" />
+        <Button android:id="@+id/settingButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/startButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start" android:layout_weight="1.0" />
+        <Button android:id="@+id/stopButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stop" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.androidplot.xy.XYPlot android:id="@+id/data_plot" android:layout_width="match_parent" android:layout_height="match_parent" androidPlot.title="Data graph" androidPlot.titleWidget.labelPaint.textSize="@dimen/title_font_size" androidPlot.domainLabelWidget.labelPaint.textSize="@dimen/domain_label_font_size" androidPlot.rangeLabelWidget.labelPaint.textSize="@dimen/range_label_font_size" androidPlot.graphWidget.marginTop="20dp" androidPlot.graphWidget.marginLeft="15dp" androidPlot.graphWidget.marginBottom="50dp" androidPlot.graphWidget.marginRight="10dp" androidPlot.graphWidget.lineLabelPaint.textSize="100dp" androidPlot.graphWidget.rangeLabelPaint.textSize="@dimen/range_tick_label_font_size" androidPlot.graphWidget.rangeOriginLabelPaint.textSize="@dimen/range_tick_label_font_size" androidPlot.graphWidget.domainLabelPaint.textSize="@dimen/domain_tick_label_font_size" androidPlot.graphWidget.domainOriginLabelPaint.textSize="@dimen/domain_tick_label_font_size" androidPlot.legendWidget.textPaint.textSize="@dimen/legend_text_font_size" androidPlot.legendWidget.iconSizeMetrics.heightMetric.value="15dp" androidPlot.legendWidget.iconSizeMetrics.widthMetric.value="15dp" androidPlot.legendWidget.heightMetric.value="25dp" androidPlot.legendWidget.positionMetrics.anchor="right_bottom" androidPlot.graphWidget.gridLinePaint.color="#000000" androidplot.renderMode="use_background_thread" />
+    <TextView android:textStyle="bold" android:textColor="#ff0000" android:id="@+id/textrx" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:textStyle="bold" android:id="@+id/textstatus" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:textStyle="bold|italic" android:id="@+id/textdevicename" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/info" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:textStyle="bold" android:id="@+id/searchedendpoint" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

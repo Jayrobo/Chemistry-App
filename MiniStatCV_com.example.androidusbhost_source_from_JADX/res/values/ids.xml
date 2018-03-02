@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="date_title">false</item>
+    <item type="id" name="dateText">false</item>
+    <item type="id" name="check">false</item>
+    <item type="id" name="csvButton">false</item>
+    <item type="id" name="settingButton">false</item>
+    <item type="id" name="startButton">false</item>
+    <item type="id" name="stopButton">false</item>
+    <item type="id" name="data_plot">false</item>
+    <item type="id" name="textrx">false</item>
+    <item type="id" name="textstatus">false</item>
+    <item type="id" name="textdevicename">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="searchedendpoint">false</item>
+    <item type="id" name="exportTitle">false</item>
+    <item type="id" name="exportconfirm">false</item>
+    <item type="id" name="exportcancel">false</item>
+    <item type="id" name="startV">false</item>
+    <item type="id" name="startscan_pick">false</item>
+    <item type="id" name="volt1">false</item>
+    <item type="id" name="scanEnd">false</item>
+    <item type="id" name="scanupto_pick">false</item>
+    <item type="id" name="volt2">false</item>
+    <item type="id" name="endV">false</item>
+    <item type="id" name="endV_pick">false</item>
+    <item type="id" name="volt3">false</item>
+    <item type="id" name="scanRateV">false</item>
+    <item type="id" name="scanrate_pick">false</item>
+    <item type="id" name="vrateunit">false</item>
+    <item type="id" name="startEx">false</item>
+    <item type="id" name="cancelEx">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

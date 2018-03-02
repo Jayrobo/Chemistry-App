@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: AfPh3OJoypH966MludSW6f1RHg4=
+
+Name: res/layout/dialog_export.xml
+SHA1-Digest: AWyigdW0fbDtXAaNvBC8BqetgUM=
+
+Name: AndroidManifest.xml
+SHA1-Digest: /KhIpghNHP6VayKVmqWEqkbHdWw=
+
+Name: res/layout/dialog_expset.xml
+SHA1-Digest: PDZwJEKEbFtq1FufkKa4JrUEiQA=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: i+45gYdQfBSeNb1/Gexo73JfmPA=
+
+Name: resources.arsc
+SHA1-Digest: OgxxX0Y9Se+xQwgtAUBT8ay5R1M=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: RRxOSvpmhVfCwiprVV/wZlaqQpw=
+
+Name: res/xml/device_filter.xml
+SHA1-Digest: bBH0V8qOQDk7FPGEjgk+yDlHhp8=
+
+Name: classes.dex
+SHA1-Digest: Jf4sUzB/j7yg8KsmLlqAdVlFQec=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: GVIfdEOBv4gEny2T1jDhGGsZOBo=
+
+Name: res/menu/main.xml
+SHA1-Digest: V1W9T7hAcYnlcfYFwwC/zLOZtfk=
+
